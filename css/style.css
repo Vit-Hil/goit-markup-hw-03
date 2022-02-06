@@ -1,0 +1,199 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-text-color: #ffffff;
+}
+
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* header */
+
+.logo {
+  color: var(--title-text-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-text {
+  color: var(--accent-color);
+}
+.header-page {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav .link {
+  color: var(--title-text-color);
+}
+.nav .link.current {
+  color: var(--accent-color);
+}
+.nav .link:hover,
+.nav .link:focus {
+  color: var(--accent-color);
+}
+.connection .link {
+  color: var(--primary-text-color);
+}
+.connection .link:hover,
+.connection .link:focus {
+  color: var(--accent-color);
+}
+
+/* main */
+
+/* hero */
+
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--white-text-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.section-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+.preference-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.section-team {
+  background-color: #f5f4fa;
+}
+.team-list {
+  background-color: var(--white-text-color);
+}
+.team {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.team-position {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+/* button */
+
+[type="button"] {
+  cursor: pointer;
+}
+
+.button-hero {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  border: none;
+}
+.button-hero:hover,
+.button-hero:focus {
+  background: #188ce8;
+}
+
+/* footer */
+
+.footer-page {
+  background-color: #2f303a;
+}
+.address {
+  font-style: normal;
+  color: var(--white-text-color);
+}
+.footer-page .logo {
+  color: var(--white-text-color);
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
+/* portfolio */
+
+.main-portfolio {
+  background-color: #e5e5e5;
+}
+
+.portfolio-list {
+  background-color: var(--white-text-color);
+}
+
+.portfolio-filter {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.portfolio-filter:hover,
+.portfolio-filter:focus {
+  color: var(--white-text-color);
+  background-color: #2196f3;
+}
+.title-project {
+  color: var(--title-text-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-description {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+/* #FFFFFF  -  колір білого тексту
+#2196F3  - колір синього тексту
+#212121  - колір заголовків
+#757575  - колір основного текту
+rgba(255, 255, 255, 0.6) - колір адрес (футер) */
