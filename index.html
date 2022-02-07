@@ -13,134 +13,119 @@
 </head>
 <body>
     <header class="header-page">
-        <nav class="container">
-        <nav>
-        <a href="./index.html" class="logo link"><span class="logo-text">Web</span> Studio</a>
+        <div class="container header-container">
+        <nav class="nav-page">
+        <a href="./index.html" class="logo link"><span class="logo-text">Web</span>Studio</a>
         
             <ul class="nav list">
-                <li><a href="./index.html" class="link current">Студія</a></li>
-                <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-                <li><a href="" class="link">Контакти</a></li>
+                <li class="item"><a href="./index.html" class="link current">Студія</a></li>
+                <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
+                <li class="item"><a href="" class="link">Контакти</a></li>
             </ul>
         </nav>
 
         <div>
             <ul class="list connection">               
-                <li>
+                <li class="connection-item">
                 <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
                 </li>
 
-                <li>
+                <li class="connection-item">
                 <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
                 </li>
             </ul>
         </div>
-        </nav>
+        </div>
     </header>
     <main>
-        <section class="hero">
-                    <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ <br> ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+        <section class="hero section container">
+                    <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
                     <button type="button" class="button-hero">Замовити послугу</button>
         </section>
 
-        <section class="section-preference">
-            <h2 class="section-title">Переваги</h2>
-            <ul class="list">
-                <li>
-                    <h3 class="preference-title">Увага до деталей</h3>
-                    <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-                </li>
-                <li>
-                    <h3 class="preference-title">Пунктуальність</h3>
-                    <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-                </li>
-                <li>
-                    <h3 class="preference-title">Планування</h3>
-                    <p>Так само консультація з широким активом значно обумовлює.</p>
-                </li>
-                <li>
-                    <h3 class="preference-title">Сучасні технології</h3>
-                    <p>Значимість цих проблем є настільки очевидною, що реалізація планових завдань.</p>
-                </li>
-            </ul>
+        <section class="section section-preference">
+            <h2 class="hide">Переваги</h2>
+            <div class="container">
+                <ul class="list preference-list">
+                    <li class="preference-item">
+                        <h3 class="preference-title">Увага до деталей</h3>
+                        <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    </li>
+                    <li class="preference-item">
+                        <h3 class="preference-title">Пунктуальність</h3>
+                        <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    </li>
+                    <li class="preference-item">
+                        <h3 class="preference-title">Планування</h3>
+                        <p>Так само консультація з широким активом значно обумовлює.</p>
+                    </li>
+                    <li class="preference-item">
+                        <h3 class="preference-title">Сучасні технології</h3>
+                        <p>Значимість цих проблем є настільки очевидною, що реалізація планових завдань.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
 
-        <section class="section-gadgets">
+        <section class="section section-gadgets">
             <h2 class="section-title">Чим ми займаємось</h2>
-            <ul class="list">
-                <li>
-                    <img 
-                    src="./images/laptop.jpg" 
-                    alt="Ноутбук"
-                    width="370"
-                    height="294">
-                </li>
-                <li>
-                    <img 
-                    src="./images/phone.jpg" 
-                    alt="Телефон"
-                    width="370"
-                    height="294">
-                </li>
-                <li>
-                    <img 
-                    src="./images/tablet.jpg" 
-                    alt="Планшет"
-                    width="370"
-                    height="294">
-                </li>
-            </ul>
+            <div class="container">
+                <ul class="list gadgets-list">
+                    <li class="gadgets-item">
+                        <img src="./images/laptop.jpg" alt="Ноутбук" width="370" height="294">
+                    </li>
+                    <li class="gadgets-item">
+                        <img src="./images/phone.jpg" alt="Телефон" width="370" height="294">
+                    </li>
+                    <li class="gadgets-item">
+                        <img src="./images/tablet.jpg" alt="Планшет" width="370" height="294">
+                    </li>
+                </ul>
+            </div>
         </section>
 
-        <section class="section-team">
+        <section class="section  section-team">
             <h2 class="section-title">Наша команда</h2>
-            
-            <ul class="list">
-                <li class="team-list">
-                    <img 
-                    src="./images/Igor_Demyanenko.jpg" 
-                    alt="Igor_Demyanenko"
-                    width="270"
-                    height="260">
-                    
-                    <p class="team">Ігор Демьяненко</p>
-                    <p lang="en" class="team-position">Product Designer</p>
-                </li>
-                <li class="team-list">
-                    <img 
-                    src="./images/Olha_Repina.jpg" 
-                    alt="Olha_Repina"
-                    width="270"
-                    height="260">
-
-                    <p class="team">Ольга Репіна</p>
-                    <p lang="en" class="team-position">Frontend Developer</p>
-                </li>
-                <li class="team-list">
-                    <img 
-                    src="./images/Mykola_Tarasov.jpg" 
-                    alt="Mykola_Tarasov"
-                    width="270"
-                    height="260">
-
-                    <p class="team">Микола Тарасов</p>
-                    <p lang="en" class="team-position">Marketing</p>
-                </li>
-                <li class="team-list">
-                    <img 
-                    src="./images/Mikhail_Yermakov.jpg" 
-                    alt="Mikhail_Yermakov"
-                    width="270"
-                    height="260">
-
-                    <p class="team">Михайло Єрмаков</p>
-                    <p lang="en" class="team-position">UI Designer</p>
-                </li>
-            </ul>
+            <div class="container">
+                <ul class="list team-items">
+                    <li class="team-list">
+                        <div>
+                            <img src="./images/Igor_Demyanenko.jpg" alt="Igor_Demyanenko" width="270" height="260">
+                        
+                            <p class="team">Ігор Демьяненко</p>
+                            <p lang="en" class="team-position">Product Designer</p>
+                        </div>
+                    </li>
+                    <li class="team-list">
+                        <div>
+                            <img src="./images/Olha_Repina.jpg" alt="Olha_Repina" width="270" height="260">
+                            
+                            <p class="team">Ольга Репіна</p>
+                            <p lang="en" class="team-position">Frontend Developer</p>
+                        </div>
+                    </li>
+                    <li class="team-list">
+                        <div>
+                            <img src="./images/Mykola_Tarasov.jpg" alt="Mykola_Tarasov" width="270" height="260">
+                            
+                            <p class="team">Микола Тарасов</p>
+                            <p lang="en" class="team-position">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="team-list">
+                        <div>
+                            <img src="./images/Mikhail_Yermakov.jpg" alt="Mikhail_Yermakov" width="270" height="260">
+                            
+                            <p class="team">Михайло Єрмаков</p>
+                            <p lang="en" class="team-position">UI Designer</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
-    <footer class="footer-page">
-        <a href="./index.html" class="link logo"><span class="logo-text">Web</span> Studio</a>
+    <footer class="footer-page container">
+        <a href="./index.html" class="link logo"><span class="logo-text">Web</span>Studio</a>
             <ul class="list">
                 <li><address class="address">м. Київ, пр-т Лесі Українки, 26</address></li>
                 <li><a href="mailto:info@example.com" class="footer-link link">info@example.com</a></li>

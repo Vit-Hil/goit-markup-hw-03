@@ -14,43 +14,45 @@
 
 <body>
     <header  class="header-page">
-        <nav>
-        <a href="./index.html" class="logo"><span class="logo-text">Web</span> Studio</a>
-            <ul class="nav list">
-                <li><a href="./index.html" class="link">Студія</a></li>
-                <li><a href="./portfolio.html" class="link current">Портфоліо</a></li>
-                <li><a href="" class="link">Контакти</a></li>
-            </ul>
-        </nav>
-    
-        <div>
-            <ul class="list connection">
-                <li>
-                    <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-                </li>
-    
-                <li>
-                    <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-                </li>
-            </ul>
+        <div class="container header-container">
+            <nav class="nav-page">
+                <a href="./index.html" class="logo link"><span class="logo-text">Web</span>Studio</a>
+                <ul class="nav list">
+                    <li class="item"><a href="./index.html" class="link">Студія</a></li>
+                    <li class="item"><a href="./portfolio.html" class="link current">Портфоліо</a></li>
+                    <li class="item"><a href="" class="link">Контакти</a></li>
+                </ul>
+            </nav>
+            
+            <div>
+                <ul class="list connection">
+                    <li class="connection-item">
+                        <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+                    </li>
+            
+                    <li class="connection-item">
+                        <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
 
-    <main class="main-portfolio">
+    <main class="main-portfolio section">
         <h1 class="title-portfolio">Портфоліо</h1>
-        <section class="section-filter">
+        <section class="section-filter container">
             <h2 class="title-portfolio">фільтр</h2>
-            <ul class="list">
-                <li><button type="button" class="portfolio-filter">Все</button></li>
-                <li><button type="button" class="portfolio-filter">Веб-сайти</button></li>
-                <li><button type="button" class="portfolio-filter">Додатки</button></li>
-                <li><button type="button" class="portfolio-filter">Дизайн</button></li>
-                <li><button type="button" class="portfolio-filter">Маркетинг</button></li>
+            <ul class="list filter">
+                <li class="item-filter"><button type="button" class="portfolio-filter">Все</button></li>
+                <li class="item-filter"><button type="button" class="portfolio-filter">Веб-сайти</button></li>
+                <li class="item-filter"><button type="button" class="portfolio-filter">Додатки</button></li>
+                <li class="item-filter"><button type="button" class="portfolio-filter">Дизайн</button></li>
+                <li class="item-filter"><button type="button" class="portfolio-filter">Маркетинг</button></li>
             </ul>
         </section>
-        <section>
+        <section class="container">
             <h2 class="title-portfolio">Проекти</h2>
-            <ul class="list">
+            <ul class="list portfolio-container">
                 <li class="portfolio-list">
                     <a href=""><img src="./images/Projects/Project-1.jpg" alt="Project-1"></a>
                     <h3 class="title-project">Технокряк</h3>
@@ -100,12 +102,12 @@
         </section>
     </main>
 
-    <footer class="footer-page">
-        <a href="./index.html" class="footer-logo"><span class="logo-text">Web</span> Studio</a>
+    <footer class="footer-page container">
+        <a href="./index.html" class="link logo"><span class="logo-text">Web</span>Studio</a>
             <ul class="list">
                 <li><address class="address">м. Київ, пр-т Лесі Українки, 26</address></li>
-                <li><a href="mailto:info@example.com" class="footer-link">info@example.com</a></li>
-                <li><a href="tel:+380991111111" class="footer-link">+38 099 111 11 11</a></li>
+                <li><a href="mailto:info@example.com" class="footer-link link">info@example.com</a></li>
+                <li><a href="tel:+380991111111" class="footer-link link">+38 099 111 11 11</a></li>
             </ul>
     </footer>
 </body>
